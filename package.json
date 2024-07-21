@@ -6,7 +6,8 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon src/server.js",
+    "start": "nodemon babel-node src/server.js",
+    "dev": "nodemon src/server.js",
     "test": "ava"
   },
   "author": "",
